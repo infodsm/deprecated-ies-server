@@ -13,8 +13,8 @@ class Config:
     JET_SECRET_KEY = 'dev'
 
     SQLALCHEMY_DATABASE_URI = (
-        'mysql+pymysql://root:tt12345678@localhost/ies'
+            'mysql+pymysql://infodsm:infodsm@localhost/infodsm?charset=utf8mb4'
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    UPLOAD_FOLDER = r'C:\Users\user\Desktop\IES\image'
+    UPLOAD_FOLDER = r'/home/infodsm/INFO_Backend/image'
